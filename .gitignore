@@ -1,0 +1,21 @@
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node and build output
+node_modules/
+build/
+dist/
+.next/
+
+# Local data and editor files
+*.log
+.DS_Store
+.vscode/
